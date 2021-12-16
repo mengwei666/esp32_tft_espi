@@ -22,7 +22,7 @@
 > 打开ubuntu的vscode的platformio首页新建工程文件如下图
 ![2021-12-16 11-18-03 的屏幕截图](https://user-images.githubusercontent.com/58246560/146302483-cb7ec3f3-125e-474a-a55a-69fca686174c.png)
 ![2021-12-16 11-18-45 的屏幕截图](https://user-images.githubusercontent.com/58246560/146302548-ea5e2f5e-8d1e-444e-8eb1-1b9a6c038696.png)
-> 添加tft_espi到工程的lib 修改通用型头文件改为自用的驱动文件，这里我使用的是（52行的 #include <User_Setups/Setup24_ST7789.h> ）打开<User_Setups/Setup24_ST7789.h>头文件，去掉默认配置，改为esp32的配置
+> 添加tft_espi到工程的lib。修改通用型头文件改为自用的驱动文件，这里我使用的是（52行的 #include <User_Setups/Setup24_ST7789.h> ）打开<User_Setups/Setup24_ST7789.h>头文件，去掉默认配置，改为esp32的配置
 ```cpp
 // Generic ESP32 setup
 #define TFT_MISO 19
@@ -56,3 +56,6 @@ void setup() {
 }
 void loop() {}
 ```
+> 修改 “screen.drawRoundRect(30, 30, 200, 200,20, TFT_RED);” 调用tft_espi库即可以实现显示内容。
+![2021-12-16 11-49-17](https://user-images.githubusercontent.com/58246560/146305066-1861b008-7c2e-4891-b48d-63c3b1c78938.jpg)
+# 感谢
