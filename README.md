@@ -5,13 +5,13 @@
 * 接线：
     * 屏幕 ------ 开发板
     * GND ------ GND
-    3. VCC ------ VCC(3.3V)
-    4. SCL ------ GPIO18
-    5. SDA ------ GPIO23
-    6. RES ------ GPIO4
-    7. DC ------ GPIO2
-    8. CS ------ GND
-    9. BLK ------ GPIO12
+    * VCC ------ VCC(3.3V)
+    * SCL ------ GPIO18
+    * SDA ------ GPIO23
+    * RES ------ GPIO4
+    * DC ------ GPIO2
+    * CS ------ GND
+    * BLK ------ GPIO12
 ## 2.软件
 * ubuntu(20.04.3.LTS)
 * vscode(v1.63)
