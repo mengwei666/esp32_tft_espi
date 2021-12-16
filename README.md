@@ -20,4 +20,4 @@
 # 开发过程
 ## 1.生成工程
 > 打开ubuntu的vscode的platformio首页新建工程文件如下图
-![](/5.Docs/2.Images/framework.png)
+![2021-12-16 11-18-03 的屏幕截图](https://user-images.githubusercontent.com/58246560/146302483-cb7ec3f3-125e-474a-a55a-69fca686174c.png)
