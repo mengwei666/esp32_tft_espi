@@ -17,3 +17,6 @@
 * vscode(v1.63)
 * platformio(v2.4.0)
 * TFT_eSPI(v2.3.84) 地址:https://github.com/Bodmer/TFT_eSPI 
+# 开发过程
+## 1.生成工程
+> 打开ubuntu的vscode的platformio首页新建工程文件如下图
